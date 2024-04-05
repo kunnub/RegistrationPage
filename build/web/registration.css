@@ -1,0 +1,58 @@
+
+/* 
+    Created on : Mar 3, 2024, 1:22:27 AM
+    Author     : HP
+*/
+
+*{
+    background-color: white;
+}
+h1{
+    text-align: center;
+    font-family: ariana;
+}
+h3{
+    text-align: center;
+    font-family: ariana;
+    background-color: whitesmoke;
+}
+p{
+    background-color: whitesmoke;
+    text-align: justify;
+}
+.form{
+    align-items: justify;
+    background-color: white;
+/*    border: 2px solid black;*/
+}
+.box{
+    align-content: justify;
+    background: whitesmoke;
+/*    border: 3px solid red;*/
+    margin: 1% 35%;
+    padding: 1% 1%;
+    
+}
+input[type = "text"],input[type="email"],
+         input[type = "password"],
+         input[type = "tel"]
+        {
+            width:80%; 
+            padding:2.5% 3%;
+            border:none;
+            border-radius: 0.3%;
+            margin: 1% 10%;
+         }
+         input[type="submit"]{
+             width: 30%;
+             margin:1% 35%;
+             padding:1.5% 1.5%;
+             border-radius: 0.5%;
+/*             border: solid #999999;*/
+
+         }
+         input[type="submit"]:hover{
+             cursor: pointer;
+             background-color:green;
+         }
+
