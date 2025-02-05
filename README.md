@@ -1,5 +1,4 @@
 
-
 # Registration and Login Authenticator
 
 Welcome to the **Registration and Login Authenticator** repository! This project is a web application that provides user registration and login functionalities, demonstrating database connectivity using JSP, Servlets, JDBC, and MySQL.
@@ -95,3 +94,4 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 Feel free to explore and enhance this project! If you have any questions, contact me at [contact me](kunalbobde19@gmail.com).
+
