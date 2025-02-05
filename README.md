@@ -1,38 +1,3 @@
-# Registration and Login Authenticator
-
-Welcome to the **Registration and Login Authenticator** repository! This project is a web application that provides user registration and login functionalities, demonstrating database connectivity using JSP, Servlets, JDBC, and MySQL.
-
-## Features
-
-- User Registration: Allows new users to create an account by providing necessary details.
-- User Login: Authenticates users based on their credentials.
-- Session Management: Maintains user sessions upon successful login.
-- Input Validation: Ensures that user inputs meet the required criteria.
-- Database Integration: Stores user information securely in a MySQL database.
-
-## Technologies Used
-
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend**: JSP, Servlets
-- **Database**: MySQL
-- **Connectivity**: JDBC
-- **Tools**: Apache Tomcat, NetBeans IDE
-
-## Prerequisites
-
-Before you begin, ensure you have the following installed:
-
-- Java Development Kit (JDK)
-- Apache Tomcat Server
-- MySQL Server
-- NetBeans IDE or any preferred Java IDE
-
-## Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/kunnub/RegistrationPage.git
-Import the project:
 
 # Registration and Login Authenticator
 
