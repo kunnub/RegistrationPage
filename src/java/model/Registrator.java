@@ -2,7 +2,7 @@
 package model;
 
 import java.sql.PreparedStatement;
-import database.RegDBController;
+import database.DBConnector;
 import java.sql.Connection;
 import java.sql.SQLException;
 
@@ -19,7 +19,7 @@ public class Registrator {
         int i=0;
         if(!name.trim().equals("") && !mobile.trim().equals("")  && (password.trim().length()>=8))
         {
-           Connection con= RegDBController.getConnection();
+           Connection con= DBConnector.getConnection();
            
            PreparedStatement pst = con.prepareStatement("INSERT INTO db28.registration(Name,Email,Number,password) VALUES(?,?,?,?);");
          

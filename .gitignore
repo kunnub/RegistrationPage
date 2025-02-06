@@ -1,0 +1,13 @@
+# Ignore compiled classes
+*.class
+
+# Ignore JAR files
+*.jar
+
+# Ignore NetBeans-specific files
+nbproject/private/
+
+# Ignore build and temporary files
+/build/
+/dist/
+

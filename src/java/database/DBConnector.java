@@ -9,15 +9,16 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+import java.sql.SQLIntegrityConstraintViolationException;
+import java.sql.Statement;
 
 /**
  *
  * @author HP
  */
-public class RegDBController {
+public class DBConnector {
     
     static Connection con=null;
-    static PreparedStatement pst = null;
     
     
     static
@@ -40,9 +41,7 @@ public class RegDBController {
     public static Connection getConnection(){
         return con;
     }
-//    public static PreparedStatement getStatement(){
-//        return pst;
-//    }
+ 
     
     
 }
